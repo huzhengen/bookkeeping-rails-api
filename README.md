@@ -23,3 +23,8 @@ bin/rails g model User email:string password_digest:string
 ```bash
 bin/rails db:migrate
 ```
+安装依赖
+```bash
+bundle
+bundle install
+```
