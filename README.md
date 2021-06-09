@@ -14,10 +14,11 @@ bin/rails db:create
 ```bash
 bin/rails s
 ```
-创建 Model
+创建 Model/Controller
 ```bash
 bin/rails g model User
 bin/rails g model User email:string password_digest:string
+bin/rails g controller users
 ```
 迁移数据
 ```bash
