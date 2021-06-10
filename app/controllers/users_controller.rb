@@ -5,9 +5,9 @@ class UsersController < ApplicationController
     user.password = params[:password]
     user.password_confirmation = params[:password_confirmation]
     if user.save
-      render json: user, status: 200
+      render json: { resource: user }, status: 200
     else
-      render json: user.errors, status: 400
+      render json: { errors: user.errors }, status: 400
     end
   end
 end
