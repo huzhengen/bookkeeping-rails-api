@@ -1,0 +1,16 @@
+zh-CN:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password:
+              blank: 请输入密码
+              too_short: 密码不能少于 6 位字符
+            email:
+              blank: 请输入邮箱
+              invalid: 邮箱格式不正确
+            password_confirmation:
+              blank: 请输入确认密码
+              confirmation: 两次密码输入不匹配
+
